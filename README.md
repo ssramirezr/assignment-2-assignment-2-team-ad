@@ -6,37 +6,9 @@ Tools used to complete the assingment: https://www.youtube.com/watch?v=awXtwAFb7
 
 How to run the code: 
 1. open your terminal on your preference IDE
-2. Write "python main.py" or "python3 main.py" depending on wich python version you have installed.
-3. write the following input line by line (pressing enter after each line):
+  
+3. Write "python main.py" or "python3 main.py" depending on wich python version you have installed.
+   
+5. First write c> 0 for the number of cases you want to create, then you will write two numbers, k>0 for the number of nonterminals and m>0 for the number of strings to be analyzed (separated by a blank espace, take into account that this is only the first case); then write the nonterminal followed by its productions (the program should read k lines, the number of lines you entered above), now we do the same, but with number m of strings that we want to analize (Each line you must press enter to confirm). Now you just repeat the process with each case, until you have completed the number c of cases you wanted to create.
 
-3
-5 5
-S AB BA SS AC BD
-C SB
-D SA
-A a
-B b
-aabbab
-aabb
-ab
-aa
-b
-4 3
-S AB AC SS
-C SB
-A a
-B b
-abab
-aaabbbaabbab
-aabab
-2 6
-S AS b
-A a
-ab
-aaaaaaaa
-aaaaaaaaaaab
-b
-bb
-abb
-
-4. Done! Now the code will tell you if these strings are in the gramatics we have just created.
+6. Done! Now the code will tell you if these strings are in the gramatics we have just created.
